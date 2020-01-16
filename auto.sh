@@ -1,5 +1,5 @@
-# cd /root/coin_kline
-# python3 app.py
+cd /root/coin_kline
+python3 app.py
 
 git add .
 git commit -m "update kline"

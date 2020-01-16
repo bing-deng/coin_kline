@@ -5,7 +5,7 @@ import time
 import os
 
 
-symbolList = ["BTC_CW"]#,"EOS_CW","BCH_CW","BSV_CW","ETC_CW","ETH_CW","XRP_CW","TRX_CW"]
+symbolList = ["BTC_CW","EOS_CW","BCH_CW","BSV_CW","ETC_CW","ETH_CW","XRP_CW","TRX_CW"]
 today =  str(datetime.date.today())
 os.mkdir(today)
 pwd = os.path.dirname(os.path.realpath(__file__)) +"/" + today

@@ -4,7 +4,7 @@ import datetime
 import time
 
 symbolList = ["BTC_CW","EOS_CW","BCH_CW","BSV_CW","ETC_CW","ETH_CW","XRP_CW","TRX_CW"]
-for j in ["1min","5min"]:
+for j in ["1min","5min","15min","30min","60min"]:
     for i in symbolList:
         url = "http://api.hbdm.com/market/history/kline?period=" + j + "&size=200&symbol="+i
         today =  datetime.date.today()

@@ -1,3 +1,3 @@
 import os
 
-os.system("cd /root/coin_kline && sh auto.sh")
+os.system("cd /Users/dengbb/Desktop/coin_kline && sh auto.sh")

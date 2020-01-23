@@ -1,4 +1,4 @@
-cd /root/Desktop/coin_kline
+cd /root/coin_kline
 python3 app.py
 
 git add .
